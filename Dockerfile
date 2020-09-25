@@ -8,7 +8,7 @@ RUN apt-get update && \
 # Original Server v436
 ADD files/ut-server-linux-436.tar.gz /
 # Update to 451
-ADD files/Patches/UTPGPatch451LINUX.tar.gz /ut-server/
+ADD files/Patches/OldUnreal-UTPatch469a-Linux.tar.bz2 /ut-server/
 # Fix for broken maps from the original file
 ADD files/Patches/BrokenMapsFix.tar.gz /ut-server/
 # Add the bonus packs
